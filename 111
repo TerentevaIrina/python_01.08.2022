@@ -1,0 +1,10 @@
+x = input("Введите число х")
+x_dev = 0
+maximum = 0
+while x>9 :
+    x_q, x_dev = divmod(x, 10)
+    if x_dev>=maximum
+        maximum = x_dev
+if x>maximum
+    maximum = x
+print(f"самая большая цифра в числе х - {maximum}")
